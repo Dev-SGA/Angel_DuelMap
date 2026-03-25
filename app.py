@@ -216,8 +216,8 @@ st.sidebar.divider()
 # Additional filter
 filter_duel_type = st.sidebar.multiselect(
     "Duel Type",
-    ["Offensive", "Defensive", "Aerial", "Other"],
-    default=["Offensive", "Defensive", "Aerial", "Other"]
+    ["Offensive", "Defensive", "Other"],
+    default=["Offensive", "Defensive", "Other"]
 )
 
 st.sidebar.divider()
