@@ -21,10 +21,10 @@ st.caption("Click on the icons on the pitch to play the corresponding video anal
 # ==========================
 matches_data = {
     "vs IMG": [
-        ("Offensive Duel Lost", 35.40, 65.43, "videos/Duel Of Lost 1.mp4"),
-        ("Defensive Duel Lost", 24.43, 73.08, "videos/Duel Lost 1.mp4"),
-        ("Defensive Duel Lost", 65.49, 56.29, "videos/Duel Lost 2.mp4"),
-        ("Defensive Duel Lost", 53.35, 55.29, "videos/Duel Lost 3.mp4"),
+        ("DUEL OFENSIVO LOST", 35.40, 65.43, "videos/Duel Of Lost 1.mp4"),
+        ("DUEL DEFENSIVO LOST", 24.43, 73.08, "videos/Duel Lost 1.mp4"),
+        ("DUEL DEFENSIVO LOST", 65.49, 56.29, "videos/Duel Lost 2.mp4"),
+        ("DUEL DEFENSIVO LOST", 53.35, 55.29, "videos/Duel Lost 3.mp4"),
         ("DUEL OFENSIVO LOST", 80.78, 66.93, "videos/Duel Of Lost 2.mp4"),
     ],
     "vs Orlando": [
@@ -76,7 +76,7 @@ def get_style(event_type, has_video):
     event_type = event_type.upper()
     
     # 1. DUELOS OFENSIVOS (Offensive Duels)
-    if "Offensive" in event_type:
+    if "OFENSIVO" in event_type:
         if "WON" in event_type:
             # Circle (Strong green)
             return 'o', (0.1, 0.95, 0.1, 0.95), 110, 0.5
@@ -86,7 +86,7 @@ def get_style(event_type, has_video):
             return 'x', (0.95, 0.1, 0.1, alpha), 120, 3.0
 
     # 2. DUELOS DEFENSIVOS (Defensive Duels)
-    if "Defensive" in event_type:
+    if "DEFENSIVO" in event_type:
         if "WON" in event_type:
             # Square (Dark green)
             return 's', (0.0, 0.6, 0.0, 0.9), 110, 0.5
