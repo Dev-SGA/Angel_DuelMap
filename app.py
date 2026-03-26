@@ -21,20 +21,20 @@ st.caption("Click on the icons on the pitch to play the corresponding video anal
 # ==========================
 matches_data = {
     "vs IMG": [
-        ("DUEL OFENSIVO LOST", 35.40, 65.43, None),
-        ("DUEL DEFENSIVO LOST", 24.43, 73.08, None),
-        ("DUEL DEFENSIVO LOST", 65.49, 56.29, None),
-        ("DUEL DEFENSIVO LOST", 53.35, 55.29, None),
-        ("DUEL OFENSIVO LOST", 80.78, 66.93, None),
+        ("DUEL OFENSIVO LOST", 35.40, 65.43, "videos/Duel Of Lost 1.mp4"),
+        ("DUEL DEFENSIVO LOST", 24.43, 73.08, "videos/Duel Lost 1.mp4"),
+        ("DUEL DEFENSIVO LOST", 65.49, 56.29, "videos/Duel Lost 2.mp4"),
+        ("DUEL DEFENSIVO LOST", 53.35, 55.29, "videos.Duel Lost 3.mp4"),
+        ("DUEL OFENSIVO LOST", 80.78, 66.93, "videos/Duel Of Lost 2.mp4"),
     ],
     "vs Orlando": [
-        ("DUEL OFENSIVO WON", 50.86, 55.79, None),
-        ("DUEL DEFENSIVO WON", 56.68, 26.37, None),
+        ("DUEL OFENSIVO WON", 50.86, 55.79, "videos/Duel Of Won 1.mp4"),
+        ("DUEL DEFENSIVO WON", 56.68, 26.37, "videos/Duel Def Won 1.mp4"),
         ("BLOQUEIO", 17.28, 49.64, None),
         ("FOULED", 80.45, 49.64, None),
-        ("DUEL OFENSIVO LOST", 100.73, 41.00, None),
-        ("INTERCEPTACAO", 82.61, 64.77, None),
-        ("DUEL DEFENSIVO WON", 70.47, 55.96, None),
+        ("DUEL OFENSIVO LOST", 100.73, 41.00, "videos/Duel Of Lost 3.mp4"),
+        ("INTERCEPTACAO", 82.61, 64.77, "videos/Intercept.mp4"),
+        ("DUEL DEFENSIVO WON", 70.47, 55.96, "videos/Duel Def Won 2.mp4"),
     ],
     "vs Weston": [
         ("DUEL DEFENSIVO WON", 41.05, 27.20, None),
