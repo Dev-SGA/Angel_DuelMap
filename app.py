@@ -54,10 +54,10 @@ matches_data = {
         ("DUEL DEFENSIVO LOST", 57.51, 75.57, "videos/Duel Lost 6.mp4"),
     ],
     "vs South Florida": [
-        ("DUEL DEFENSIVO LOST", 20.79, 55.45, None),
+        ("DUEL DEFENSIVO LOST", 20.79, 55.45, "videos/Duel Lost 7.mp4"),
         ("BLOQUEIO", 20.07, 47.68, None),
-        ("DUEL DEFENSIVO WON", 27.11, 3.23, None),
-        ("DUEL DEFENSIVO WON", 33.98, 14.43, None),
+        ("DUEL DEFENSIVO WON", 27.11, 3.23, "videos/Duel Def Won 8.mp4"),
+        ("DUEL DEFENSIVO WON", 33.98, 14.43, "videos/Duel Def Won 9.mp4"),
     ],
 }
 
