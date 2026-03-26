@@ -347,9 +347,9 @@ with col_vid:
     org_pct = f"{(org_won / (org_won + org_lost) * 100):.1f}%"
 
     col_org1, col_org2, col_org3 = st.columns(3)
-    col_org1.metric("Set Pieces Duels Won", f"{org_won}")
-    col_org2.metric("Set Pieces Duels Lost", f"{org_lost}")
-    col_org3.metric("Set Pieces %", org_pct)
+    col_org1.metric("Organization Duels Won", f"{org_won}")
+    col_org2.metric("Organization Duels Lost", f"{org_lost}")
+    col_org3.metric("Organization %", org_pct)
 
     # Transitions
     trans_won = 3
