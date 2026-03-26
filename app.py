@@ -339,6 +339,29 @@ with col_vid:
     zc3.metric("Right Corridor", f"{stats['right_wins']}/{stats['right_total']}", f"{stats['right_rate']:.1f}% Success")
 
     st.divider()
+    st.subheader("Organization / Transitions Duel Summary")
+
+    # Organization / Set Pieces
+    org_won = 6
+    org_lost = 2
+    org_pct = f"{(org_won / (org_won + org_lost) * 100):.1f}%"
+
+    col_org1, col_org2, col_org3 = st.columns(3)
+    col_org1.metric("Set Pieces Duels Won", f"{org_won}")
+    col_org2.metric("Set Pieces Duels Lost", f"{org_lost}")
+    col_org3.metric("Set Pieces %", org_pct)
+
+    # Transitions
+    trans_won = 3
+    trans_lost = 5
+    trans_pct = f"{(trans_won / (trans_won + trans_lost) * 100):.1f}%"
+
+    col_tr1, col_tr2, col_tr3 = st.columns(3)
+    col_tr1.metric("Transitions Duels Won", f"{trans_won}")
+    col_tr2.metric("Transitions Duels Lost", f"{trans_lost}")
+    col_tr3.metric("Transitions %", trans_pct)
+    
+    st.divider()
     st.subheader("Other Events")
 
     ec1, ec2, ec3 = st.columns(3)
