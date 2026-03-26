@@ -24,7 +24,7 @@ matches_data = {
         ("DUEL OFENSIVO LOST", 35.40, 65.43, "videos/Duel Of Lost 1.mp4"),
         ("DUEL DEFENSIVO LOST", 24.43, 73.08, "videos/Duel Lost 1.mp4"),
         ("DUEL DEFENSIVO LOST", 65.49, 56.29, "videos/Duel Lost 2.mp4"),
-        ("DUEL DEFENSIVO LOST", 53.35, 55.29, "videos.Duel Lost 3.mp4"),
+        ("DUEL DEFENSIVO LOST", 53.35, 55.29, "videos/Duel Lost 3.mp4"),
         ("DUEL OFENSIVO LOST", 80.78, 66.93, "videos/Duel Of Lost 2.mp4"),
     ],
     "vs Orlando": [
